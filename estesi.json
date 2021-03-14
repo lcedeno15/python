@@ -1,0 +1,139 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"geometry": {
+				"coordinates": [
+					-79.503196,
+					8.988466
+				],
+				"type": "Point"
+			},
+			"properties": {
+				"medidor": "A1"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [
+					-79.50346,
+					8.988664
+				],
+				"type": "Point"
+			},
+			"properties": {
+				"marker-color": "#1661da",
+				"medidor": "A2"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [
+					-79.502984,
+					8.988791
+				],
+				"type": "Point"
+			},
+			"properties": {
+				"medidor": "A3"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [
+					-79.502917,
+					8.988758
+				],
+				"type": "Point"
+			},
+			"properties": {
+				"medidor": "A4"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [
+					-79.502984,
+					8.988791
+				],
+				"type": "Point"
+			},
+			"properties": {
+				"marker-color": "#1661da",
+				"medidor": "A5"
+			},
+			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [
+					-79.503573,
+					8.988785
+				],
+				"type": "Point"
+			},
+			"properties": {
+				"medidor": "A6"
+			},
+			"type": "Feature"
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						-79.503196,
+						8.988466
+					],
+					[
+						-79.50346,
+						8.988664
+					]
+				]
+			},
+			"properties": {
+				"prop0": "value0",
+				"prop1": 0.0
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "MultiLineString",
+				"coordinates": [
+					[
+						[
+							-79.503196,
+							8.988466
+						],
+						[
+							-79.50346,
+							8.988664
+						]
+					],
+					[
+						[
+							-79.50346,
+							8.988664
+						],
+						[
+							-79.502984,
+							8.988791
+						]
+					]
+				]
+			},
+			"properties": {
+				"prop0": "value0",
+				"prop1": {
+					"this": "that"
+				}
+			}
+		}
+	]
+}
